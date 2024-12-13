@@ -1,0 +1,60 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://purl.archive.org/chauraph/persistent-manifest-test/manifest",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Madonna and Child with Saint John the Baptist, Saint Peter, and Two Angels, c. 1290"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "https://purl.archive.org/chauraph/persistent-manifest-test/image/full/,100/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "service": [
+                {
+                    "id": "https://purl.archive.org/chauraph/persistent-manifest-test/image",
+                    "profile": "level2",
+                    "type": "ImageService3"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://purl.archive.org/chauraph/persistent-manifest-test/canvas/p1",
+            "type": "Canvas",
+            "height": 4096,
+            "width": 2934,
+            "items": [
+                {
+                    "id": "https://purl.archive.org/chauraph/persistent-manifest-test/page/p1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://purl.archive.org/chauraph/persistent-manifest-test/annotation/p0001-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://purl.archive.org/chauraph/persistent-manifest-test/image/full/,4000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 4096,
+                                "width": 2934,
+                                "service": [
+                                    {
+                                        "id": "https://purl.archive.org/chauraph/persistent-manifest-test/image",
+                                        "profile": "level2",
+                                        "type": "ImageService3"
+                                    }
+                                ]
+                            },
+                            "target": "https://purl.archive.org/chauraph/persistent-manifest-test/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
